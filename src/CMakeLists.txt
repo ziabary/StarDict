@@ -8,7 +8,7 @@ add_library(${PROJECT_NAME} SHARED ${CPP_FILES} ${INCPP_FILES})
 
 target_link_libraries(${PROJECT_NAME})
 
-set_target_properties(${PROJECT_NAME} PROPERTIES  VERSION 2.0.0  SOVERSION 2)
+set_target_properties(${PROJECT_NAME} PROPERTIES  VERSION 1.0.0  SOVERSION 1)
 
 include_directories(${PROJECT_SOURCE_DIR}/lib${PROJECT_NAME})
 SET(${PROJECT_NAME}_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/lib${PROJECT_NAME}
